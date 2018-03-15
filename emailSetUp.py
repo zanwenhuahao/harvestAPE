@@ -9,11 +9,11 @@ from datetime import datetime
 # Constants:
 # Emailing from "xuan.tappy.he@gmail.com" to itself
 
-gmailAddress = 'xuan.tappy.he@gmail.com'
-gmailPassword = '19910504'
+gmailAddress = 'myemail@gmail.com'
+gmailPassword = 'somePassword'
 
-mailFrom = "xuan.tappy.he@gmail.com"
-mailTo = "xuan.tappy.he@gmail.com"
+mailFrom = "myemail@gmail.com"
+mailTo = "myemail@gmail.com"
 
 # -------------------------------
 
