@@ -30,8 +30,8 @@ allHidden = {x.attrib["name"]:x.attrib["value"] for x in hidden_inputs}
 #print(allHidden)
 
 payload = allHidden
-payload['txtUserName']='zanwenhuahao'
-payload['txtPassword']='laotaitai'
+payload['txtUserName']='someUsername'
+payload['txtPassword']='somePassword'
 payload['btnLogIn'] = 'LOGIN'
 payload['chkRemember'] = ''
 
