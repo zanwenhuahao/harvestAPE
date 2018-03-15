@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 # Constants:
-# Emailing from "xuan.tappy.he@gmail.com" to itself
+# Emailing from "myemail@gmail.com" to itself
 
 gmailAddress = 'myemail@gmail.com'
 gmailPassword = 'somePassword'
