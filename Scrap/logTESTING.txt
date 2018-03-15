@@ -1,0 +1,41 @@
+</tr><tr class="even">
+                <td>2482069</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=4105bd14-fcec-4443-8552-08696f29d30d" class="AbsenceEx">Intermediate/Senior</a></td><td>Eastwood Collegiate Institute<br />Kitchener</td><td>
+                                                                                                    2018/02/09 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/02/09 2:20 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+            </tr><tr>
+                <td>2492077</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=d7cd464e-145a-4bf9-92f6-37fef176223d" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+                                                                                                    2018/02/13 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/02/13 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+            </tr><tr class="even">
+                <td>2485200</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=98d8a1ec-d983-4c49-84c6-952e2adfd5f7" class="AbsenceEx">Mathematics</a></td><td>Eastwood Collegiate Institute<br />Kitchener</td><td>
+                                                                                                    2018/02/14 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/02/14 10:45 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+            </tr><tr>
+                <td>2504124</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=65550bdb-c104-4ed4-b58f-34ea807d9ae4" class="AbsenceEx">Intermediate/Senior</a></td><td>Preston High School<br />Cambridge</td><td>
+                                                                                                    2018/02/16 8:05 AM
+                                                                                                </td><td>
+                                                                                                    2018/02/16 2:15 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+            </tr><tr class="even">
+                <td>2498559</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=61a930e0-e1b8-4ee3-97c8-b8b8731046ef" class="AbsenceEx">Geography</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+                                                                                                    2018/02/16 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/02/16 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+            </tr>

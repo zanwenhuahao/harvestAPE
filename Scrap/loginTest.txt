@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	Occasional Postings
+</title><meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR" /><meta content="C#" name="CODE_LANGUAGE" /><meta content="JavaScript" name="vs_defaultClientScript" /><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" /><meta http-equiv="Cache-Control" content="no-cache" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /><link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/ui-lightness/jquery-ui.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="/Styles/main_ATT.css?v=2" type="text/css" rel="stylesheet" /><link rel="alternate stylesheet" type="text/css" href="/styles/main_large2.css" title="A++" /><link rel="alternate stylesheet" type="text/css" href="/styles/main_medium2.css" title="A+" /><link rel="alternate stylesheet" type="text/css" href="/styles/main_small2.css" title="A" /><link rel="alternate stylesheet" type="text/css" href="/styles/main_x-small2.css" title="A-" /><link rel="alternate stylesheet" type="text/css" href="/styles/main_xx-small2.css" title="A--" />
+
+
+<link rel="stylesheet" type="text/css" href="/Styles/main_ApplyToTeach.css">
+<script type="text/javascript" src="/jScripts/yui.2.5.1/build/yahoo/yahoo-min.js"></script>
+<script type="text/javascript" src="/jScripts/yui.2.5.1/build/event/event-min.js"></script>
+<script type="text/javascript" src="/jScripts/yui.2.5.1/build/dom/dom-min.js"></script>
+<script type="text/javascript" src="/jScripts/yui.2.5.1/build/container/container_core-min.js"></script>
+
+	<script type="text/javascript" language="javascript" src="/jScripts/JAMS.js"></script>
+	<script language="JavaScript" src="/jScripts/styleswitcher.js" type="text/javascript"> </script>
+	<style type="text/css">
+	    #TDFooter
+	    {	     
+            width:auto;
+            max-width:980px;
+	    }	    
+	</style>
+    
+    <link rel="Stylesheet" type="text/css" href="/Styles/responsive/applicant/AttOccasionalPostings.css" />
+	<script type="text/javascript">
+	    function SwitchTabs(ind) {
+	        $("div[id$='divJobBoard']").attr("class", ind == 2 ? "tabbedList" : "hidden");
+	        $("div[id$='divPostingsArchive']").attr("class", ind == 1 ? "tabbedList" : "hidden");
+	        $("div[id$='divAcceptedPostings']").attr("class", ind == 3 ? "tabbedList" : "hidden");
+
+	        $("div[id$='divViewJobBoard']").attr("class", ind == 2 ? "" : "hidden");
+	        $("div[id$='divViewPostingsArchive']").attr("class", ind == 1 ? "" : "hidden");
+	        $("div[id$='divViewAcceptedPostings']").attr("class", ind == 3 ? "" : "hidden");
+
+	        $("select[id$='ddlMonth']")[0].disabled = ind == 2;
+
+	        if (ind == 1) {
+	            $("input[id$='hfTAB']").val("PA");
+	        }
+	        else if (ind == 2) {
+	            $("input[id$='hfTAB']").val("JB");
+	        }
+	        else if (ind == 3) {
+	            $("input[id$='hfTAB']").val("AP");
+	        }
+	    }
+	</script>
+</head>
+<body  bottomMargin="5" leftMargin="5" topMargin="5" rightMargin="5">
+    <form method="post" action="AttOccasionalPostings.aspx?TAB=JB" id="aspnetForm" autocomplete="off">
+<input type="hidden" name="__SCREEN_WIDTH" id="__SCREEN_WIDTH" value="0" />
+<input type="hidden" name="__SCREEN_HEIGHT" id="__SCREEN_HEIGHT" value="0" />
+<input type="hidden" name="__SCREEN_COLOR_DEPTH" id="__SCREEN_COLOR_DEPTH" value="0" />
+<input type="hidden" name="ctl00_ToolkitScriptManager1_HiddenField" id="ctl00_ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTg0MzEyODQ3MQ9kFgJmD2QWBAICD2QWAgISDxYCHgRUZXh0BdEDDQoNCg0KPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL1N0eWxlcy9tYWluX0FwcGx5VG9UZWFjaC5jc3MiPg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pTY3JpcHRzL3l1aS4yLjUuMS9idWlsZC95YWhvby95YWhvby1taW4uanMiPjwvc2NyaXB0Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pTY3JpcHRzL3l1aS4yLjUuMS9idWlsZC9ldmVudC9ldmVudC1taW4uanMiPjwvc2NyaXB0Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pTY3JpcHRzL3l1aS4yLjUuMS9idWlsZC9kb20vZG9tLW1pbi5qcyI+PC9zY3JpcHQ+DQo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvalNjcmlwdHMveXVpLjIuNS4xL2J1aWxkL2NvbnRhaW5lci9jb250YWluZXJfY29yZS1taW4uanMiPjwvc2NyaXB0Pg0KZAIED2QWCAIFD2QWAmYPZBYcZg8WAh4EaHJlZgUrL1N0eWxlcy9nb29nbGVUcmFuc2xhdGUvZ29vZ2xlVHJhbnNsYXRlLmNzc2QCAg8WAh8BBTcvU3R5bGVzL2dvb2dsZVRyYW5zbGF0ZS9nb29nbGVUcmFuc2xhdGVEaXN0cmlidXRpb24uY3NzZAIEDw8WAh8ABRUgWHVhbiBIZSwgT0NUICZuYnNwOyBkZAIGDxYCHwAFYTxkaXYgaWQ9J2dvb2dsZV90cmFuc2xhdGVfZWxlbWVudCcgc3R5bGU9J21hcmdpbi1yaWdodDo1cHg7IGZsb2F0OmxlZnQ7IHBhZGRpbmctbGVmdDo0cHg7Jz48L2Rpdj5kAggPDxYCHgtOYXZpZ2F0ZVVybAVOaHR0cDovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9hcHBseXRvZWR1Y2F0aW9uLWhyLXNvbHV0aW9ucz90cms9Y29tcGFueV9uYW1lZGQCCg8WAh4HVmlz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Ly9ob21lLmFwcGx5dG9lZHVjYXRpb24uY29tL2luZGV4LnBocC9hYm91dC0yLx4GVGFyZ2V0BQZfYmxhbmtkZAIFDxYCHwNoFgICAQ8PFgIfA2hkZAIHDw8WBB8CBTZodHRwczovL2hvbWUuYXBwbHl0b2VkdWNhdGlvbi5jb20vaW5kZXgucGhwL2NvbnRhY3QtMi8fDAUGX2JsYW5rZGQCCQ8PFgQfAgUdL0NvbW1vbi9BdHRQcml2YWN5UGxlZGdlLmFzcHgfDAUGX2JsYW5rZGQCCw8PFgQfAgUaL0NvbW1vbi9BdHRUZXJtc09mVXNlLmFzcHgfDAUGX2JsYW5rZGQCDQ8WAh8DaGQCEQ8PFgIfAAUoQ29weXJpZ2h0ICZjb3B5OyAyMDE4IEFwcGx5IFRvIEVkdWNhdGlvbmRkGAQFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBS1jdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNoa09wZW5Qb3N0aW5nc09ubHkFLGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3ZBY2NlcHRlZFBvc3RpbmdzDzwrAAwBCAIBZAUrY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRndlBvc3RpbmdzQXJjaGl2ZQ88KwAMAQgCAWQFJGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3ZKb2JCb2FyZA88KwAMAQhmZB0OTZ6J5VTWuJreAgA9YurNDDyiTMzu5X0rVduj8dVk" />
+
+
+<script language="JavaScript" type="text/javascript">
+if(document.getElementById('__SCREEN_WIDTH'))document.getElementById('__SCREEN_WIDTH').value=screen.width;
+if(document.getElementById('__SCREEN_HEIGHT'))document.getElementById('__SCREEN_HEIGHT').value=screen.height;
+if(document.getElementById('__SCREEN_COLOR_DEPTH'))document.getElementById('__SCREEN_COLOR_DEPTH').value=screen.colordepth;
+</script>
+<script src="/ScriptResource.axd?d=sj6Hl4Z3XXOGIc_8oVu5trGwZcn_PljX7ix8psNA9kOgoxv4StYtMCZx_eQLOhRrHsepPWn5247jv93pTrLkRjbnil6F8ghzncQmpXVgf7yo_kiCNNbEYACNEVoRYiQ8AcU2Km8gPjRKHN49o2EK2g2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACT0LSaKbHyiVyuSMmEPSsnpD3FaW9F4mfkvV3FgxYh41Bigxyq2v+t955wdQPFs1/3LkvM9UTYiUqnaBGrnnQXFaYeCMtjt1n2IZI0AeIgnKA0vhe2V4brtcXP0zApmoHzjvH3OKrly1ZOgLjfnTR+0CtSHn3mZdKNTVEnKr5G60Ex5jDj1rl0VbuPjH2Vq8/zhA9jOARZ5bL+w4gZ1dNX2Zs6SF+Izj5cuH/25Ri1LJlPeBzZ9vN9X0WWoOCwhNjrARPI+owu1FVCpM5WE0rUzDK0zm6N5soaAKAAmFPNls0o6bNlvH0MCzfJnh7vB1Mbi9uWvPbt40+vgvU0w9bhV7gddPBTSQYBzj6JL+wMQxUhTAH/mpg8g8V8D9iSV+fczE8OxU7yMyZraHU6Q0S046vsr3PkHwES5RDXSc5CLbPO0zR012yMFePdsw524lbcAWjqflkY5wxcFJNn6R6VhKNMduTBkiWcd2s0LNljkruFTT9vzn1GLMB/nb3izBRHddgu5jl1tjJ4wwS+It/HWqMk2crCXVgwp020cvF0NTCzwHVVFzF3PBp5vuTbekj9LM1wNKLOfhK/0KeML9zch8LqLbPFRV87u0MNIWvfgC+p2IKgt/PTxJ6W346h1JXGsNclqfr+psw4wuG58TlWk/2QFJhZet9CeCfyCvWoimXjbvWRNC5RGkkZlipDHAzrnmPAvtsqGge98WsH6sptE0hMHzp+mpbEcycvML9Y39dX5rci3h9EwdzjqC3+TOFwuNYP4KFlDCseK8lxyzjWgxglO4HRkfNhh7B6n6i+lWw==" />
+        
+		<input name="ctl00$hdnIsGuest" type="hidden" id="ctl00_hdnIsGuest" />
+
+        <div class="row" id="TDHeader" style="margin-left: auto; margin-right: auto;max-width: 980px;">       
+            <link id="ctl00_ctl17_styleGoogleTranslate" rel="Stylesheet" type="text/css" href="/Styles/googleTranslate/googleTranslate.css"></link>
+<link id="ctl00_ctl17_styleContribution" rel="Stylesheet" type="text/css" href="/Styles/googleTranslate/googleTranslateDistribution.css"></link>
+<link rel="stylesheet" type="text/css" href="/Styles/userMenu.css" />
+
+<table id="Table1" cellSpacing="0" cellPadding="0" width="100%" border="0">
+    
+
+	<tr>      
+		<td class="TDInterior" colspan="3">
+			<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+				<tr>	
+				    <td style="text-align:left;" colspan="4">
+				  <table style="width:100%; padding-left:5px;" class="hidden-xs">
+					<tr><td style="padding:5px;" ><div>
+						<div style="padding-left:5px;max-width:25%;display:inline-block;" class="pull-left">
+							<span class="notranslate"><span id="ctl00_ctl17_lbldUserName" class="HeaderTitle2"> Xuan He, OCT &nbsp; </span></span> 
+						</div>
+						<div class="pull-right"  style="display:inline-block;max-width:75%">
+							<ul class="headerTopNavUL HeaderTitle2">
+								<li><div id='google_translate_element' style='margin-right:5px; float:left; padding-left:4px;'></div></li>
+								<li>					        
+									<a href="http://www.facebook.com/applytoeducation" target="_blank"><img src="/images/FB_Black.png" border="0" alt="Facebook" id="fbTop" 
+										onmouseover="document.getElementById('fbTop').src='/images/FB_Green.png'"
+										onmouseout="document.getElementById('fbTop').src='/images/FB_Black.png'" /></a>&nbsp;
+																		
+									<a id="ctl00_ctl17_imgLnkdnLogo" href="http://www.linkedin.com/company/applytoeducation-hr-solutions?trk=company_name" target="_blank">
+									 <img src="/images/LI_Black.png" border="0" alt="Linkdn" id="lnkdnTop" 
+										onmouseover="document.getElementById('lnkdnTop').src='/images/LI_Green.png'"
+										onmouseout="document.getElementById('lnkdnTop').src='/images/LI_Black.png'" />&nbsp;
+									</a>             	                    
+								   
+									 <a href="https://twitter.com/Apply2Ed" target="_blank"><img src="/images/Twitter_Black.png" border="0" alt="Twitter" id="twtrTop" 
+										onmouseover="document.getElementById('twtrTop').src='/images/Twitter_Green.png'"
+										onmouseout="document.getElementById('twtrTop').src='/images/Twitter_Black.png'" /></a>          
+								</li>					
+								<li>
+								    
+								</li>
+								<li>&nbsp;<span id="ctl00_ctl17_lbldTextsize" class="HeaderTitle2">Text Size</span>&nbsp;
+								<a href="" onclick="fontsizeup(); return false;"><img src="/images/textBiggerOff.png" alt="text bigger" id="biggers"
+								width="16" height="16" border="0" onmouseover="document.getElementById('biggers').src='/images/textBiggerOn.png'" onmouseout="document.getElementById('biggers').src='/images/textBiggerOff.png'"
+								value=" font + " /></a>&nbsp;<a href="" onclick="fontsizedown(); return false;">
+								<img src="/images/textSmallerOff.png" alt="text smaller" id="smallers"
+								width="16" height="16" border="0" onmouseover="document.getElementById('smallers').src='/images/textSmallerOn.png'"
+								onmouseout="document.getElementById('smallers').src='/images/textSmallerOff.png'"
+								value=" font - " /></a>
+								</li>		  
+								<li>&nbsp;|&nbsp;<span id="ctl00_ctl17_lbldDate" class="HeaderTitle2">March 5, 2018</span>
+								</li>								
+							 </ul>
+						</div>
+					</div></td>
+					<td style="text-align:right; vertical-align:top;">
+                            <div class="dropdown" style="float:right; margin-top:5px;">                           
+                              <img src="/images/UserLogin.png" style="height:25px;" />
+                              <img src="/images/downArrow.jpg" align="right" style="border-width:0px; margin-top:12px; margin-right:5px; height:5px;" />
+                              <div class="dropdown-content">                                                                                                                                                                                              
+                                 <a href="/Common/AttSsoSwitchUser.aspx" id="ctl00_ctl17_hlSwitchUser" style="display:none;"><label id="ctl00_ctl17_lblSwitchUser">Switch User</label></a>
+                                  <a href="/Common/AttLogOff.aspx">Log Off</a>
+                              </div>
+                            </div>
+                    </td>
+					</tr>
+					</table>
+					</td>
+				</tr>			
+				<tr  class="hidden-xs">
+					<td  style="text-align:left"><img src="../images/applytoeducationlogo.gif" alt="Apply to Education"></td>					
+					<td class="hidden-sm"><img src="/images/spacer.gif" alt="" width="5" height="5"></td>
+					<td  class="hidden-sm" id="TDHeaderAd" colSpan="2"  style="text-align:right"></td>
+				</tr>
+				<tr>
+					<td colspan="4" style="padding-top:4px;"><!DOCTYPE html>
+
+<script language="javascript" type="text/javascript" src="/jScripts/dropmenu.js"></script> 
+<meta charset="utf-8" />
+
+<style type="text/css">  
+     
+     @media only screen and  (min-width: 768px)  and (max-width: 960px) 
+    {        
+        #divTopMenu_5
+        {
+            right:0%;
+        } 
+    }  
+    @media only screen and  (min-width: 768px) 
+    {   
+        html {
+            box-sizing: border-box  !important;
+            }
+
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .component {
+            /* designed to work in default box-sizing */
+            /* in your page, you could reset it to normal */
+            box-sizing: content-box  !important;
+            }     
+	    .divTopNavLinks
+	    {
+	        display:block !important;             
+	        width:auto;
+	        max-width:980px;
+	    }
+	    #navResponsive
+	    {
+	        display:none !important;
+	    }
+	    div.zkTopMenu{
+	        padding: 5px 5px 10px 5px !important;	        
+        }	
+        #TDFooter, .footer
+		{
+			padding-left :0px !important;
+			padding-right:0px !important;
+		}    
+         div.zkTopMenu ul li a{	     
+	        width:207px !important;
+        }                
+	}	
+	@media only screen and  (max-width: 767px)
+	{
+	    #btnMenu
+	    {
+	        float:left !important;
+	    }
+	    .divTopNavLinks
+	    {
+	        display:none !important;
+	    }
+	    #navResponsive
+	    {
+	        display:block !important;
+	    } 
+	    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus 
+	    {
+            background-color:Transparent !important; 
+        }
+        .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+            color: #fff !important;
+            background-color: Black !important;
+        } 
+        .navbar .nav .dropdown::after {   
+          position: absolute;
+          top: 16px;
+          right: 9px;
+          display: block;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;   
+          border-top: 8px solid White;
+          border-bottom-color:7px solid White;
+          content: '';   
+        } 
+        .navbar .nav .dropdown.open::after {   
+          position: absolute;
+          top: 16px;
+          right: 9px;
+          display: block;    
+           border-right: 7px solid transparent;
+          border-bottom: 7px solid #CCC;
+           border-top: 7px solid transparent;
+          border-left: 7px solid transparent;
+          content: '';   
+        } 
+}
+</style>
+
+
+<nav id="navResponsive" class="navbar navbar-inverse component" style="background-color:Transparent !important; border-color:Transparent !important;">
+  <div class="container-fluid">
+        <div class="navbar-header" style="margin-top:8px;">         
+            <div id="ctl00_ctl17_AttTopNavigation1_divATELogo" style="position:absolute; width:100%; height:100%;">
+                <img src="../images/applytoeducationlogoResponsive.png" id="ctl00_ctl17_AttTopNavigation1_imgLogoResponsive" style="display:block;margin-top:5px; margin-left:auto; margin-right:auto;" />                 
+                 <div class="dropdown" style="float:right;margin-top:-40px; margin-right:10px;">                  
+                  <img src="/images/UserLogin.png" style="height:30px;" class="dropdown-toggle" data-toggle="dropdown" ><span class="caret"></span></img>                  
+                  <ul class="dropdown-menu" style="right:0;left:initial;">
+                    <li></li>
+                    <li><a href="/Common/AttLogOff.aspx">Log Off</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            
+                        
+           
+             <div style="float:left; margin-left:10px;">
+                <button id="btnMenu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ctl00_ctl17_AttTopNavigation1_divContentsResponsive" style="border-color: Transparent !important;">
+                <span class="icon-bar" style="background-color:Black !important;"></span>
+                <span class="icon-bar" style="background-color:Black !important;"></span>
+                <span class="icon-bar" style="background-color:Black !important;"></span>                        
+                </button>      
+              </div>  
+      </div>
+      <div id="ctl00_ctl17_AttTopNavigation1_divContentsResponsive" class="collapse navbar-collapse" style="border-color:Transparent !important;"><ul class="nav navbar-nav" style="background-color:Black !important;"><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Portfolio</a><ul class="dropdown-menu "><li><a href="/Applicant/AttStart.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Account Summary</a></li><li><a href="/Applicant/AttPersonalInfo.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Personal Info</a></li><li><a href="/Applicant/AttLocations.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Who Can View my Portfolio</a></li><li><a href="/Applicant/AttQualifications.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Qualifications</a></li><li><a href="/Applicant/AttSkills.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Language Skills</a></li><li><a href="/Applicant/AttExperience.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Experience</a></li><li><a href="/Applicant/AttEducation.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Education</a></li><li><a href="/Applicant/AttReferences.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">References</a></li><li><a href="/Applicant/AttResumeAndCoverLetter.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Résumés &amp; Cover Letters</a></li><li><a href="/Applicant/AttSupportingDocuments.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Supporting Documents</a></li><li><a href="/Applicant/AttReview.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Review Portfolio</a></li></ul></li><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Job Postings</a><ul class="dropdown-menu "><li><a href="/Applicant/AttNewSearch.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Search Jobs</a></li><li><a href="/Applicant/AttStoredSearch.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Saved Searches</a></li><li><a href="/Applicant/AttJobApplicationLog.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Job Application Log</a></li></ul></li><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Internal Employees</a><ul class="dropdown-menu "><li><a href="/Applicant/AttInternalJobPostings.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">View Internal Job Postings</a></li><li><a href="/Applicant/AttInternalQuestion.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Internal Questions</a></li></ul></li><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Occasional Employees</a><ul class="dropdown-menu "><li><a href="/Applicant/AttOccasionalPreferences.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Occasional Preferences</a></li><li><a href="/Applicant/AttCalendar.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">My Calendar</a></li><li><a href="/Applicant/AttAOJobPostings.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">View Openings</a></li><li><a href="/Applicant/AttOccasionalPostings.aspx?TAB=JB" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">EasyConnect Job Board</a></li><li><a href="/Applicant/AttOccasionalPostings.aspx?TAB=PA" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">EasyConnect Postings Archive</a></li><li><a href="/Applicant/AttOccasionalPostings.aspx?TAB=AP" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">EasyConnect Accepted Postings</a></li></ul></li><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Administration</a><ul class="dropdown-menu "><li><a href="/Applicant/AttRegisterInternal_02.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Register for Internal Account</a></li><li><a href="/Applicant/AttActivityLog.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Activity Log</a></li><li><a href="/Applicant/AttChangePassword.aspx" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">Change Password</a></li></ul></li><li class = "dropdown" style="background-color:#eeeeee;!important"><a class="dropdown-toggle zkTopMenu" style="font-size:20px;font-weight:normal !important" data-toggle="dropdown" href="javascript:;" >Purchase Credits</a><ul class="dropdown-menu "><li><a href="/Applicant/AttCreditsTopUp.aspx?su=BjvoRbcLlMOsqipGFhyj5pV%2ff60t8e6RUZyyDKgMDFHM8vmx%2f%2fX%2bNk%2bRilLPoqk0" class="zkTopMenu" style="background-color:#eeeeee !important;color:#395D15 !important;font-size:20px !important;font-weight:normal !important">ApplyToEducation Credits</a></li></ul></li><li class = "" style="background-color:#eeeeee;!important"><a class="zkTopMenu" style="font-size:20px;font-weight:normal !important" href="https://help.applytoeducation.com" target ="_blank">Help & Training</a> </li></ul></div>	
+   </div>	
+</nav>
+
+ <div id="ctl00_ctl17_AttTopNavigation1_divContents" class="divTopNavLinks component"><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');" style="">Portfolio</a><div class="zkTopMenu" id="divTopMenu_1" style="height:198px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttStart.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Account Summary</a><li class="firstcol" style=""><a href="/Applicant/AttPersonalInfo.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Personal Info</a><li class="firstcol" style=""><a href="/Applicant/AttLocations.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Who Can View my Portfolio</a><li class="firstcol" style=""><a href="/Applicant/AttQualifications.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Qualifications</a><li class="firstcol" style=""><a href="/Applicant/AttSkills.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Language Skills</a><li class="firstcol" style=""><a href="/Applicant/AttExperience.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Experience</a><li class="firstcol" style=""><a href="/Applicant/AttEducation.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Education</a><li class="firstcol" style=""><a href="/Applicant/AttReferences.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">References</a><li class="firstcol" style=""><a href="/Applicant/AttResumeAndCoverLetter.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Résumés &amp; Cover Letters</a><li class="colheader secondcol" style=""><a href="/Applicant/AttSupportingDocuments.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Supporting Documents</a><li class="secondcol" style=""><a href="/Applicant/AttReview.aspx" onmouseover="EnterMenu('divTopMenu_1');" onmouseout="LeaveMenu('divTopMenu_1');">Review Portfolio</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_2');" onmouseout="LeaveMenu('divTopMenu_2');" style="">Job Postings</a><div class="zkTopMenu" id="divTopMenu_2" style="height:66px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttNewSearch.aspx" onmouseover="EnterMenu('divTopMenu_2');" onmouseout="LeaveMenu('divTopMenu_2');">Search Jobs</a><li class="firstcol" style=""><a href="/Applicant/AttStoredSearch.aspx" onmouseover="EnterMenu('divTopMenu_2');" onmouseout="LeaveMenu('divTopMenu_2');">Saved Searches</a><li class="firstcol" style=""><a href="/Applicant/AttJobApplicationLog.aspx" onmouseover="EnterMenu('divTopMenu_2');" onmouseout="LeaveMenu('divTopMenu_2');">Job Application Log</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_4');" onmouseout="LeaveMenu('divTopMenu_4');" style="">Internal Employees</a><div class="zkTopMenu" id="divTopMenu_4" style="height:44px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttInternalJobPostings.aspx" onmouseover="EnterMenu('divTopMenu_4');" onmouseout="LeaveMenu('divTopMenu_4');">View Internal Job Postings</a><li class="firstcol" style=""><a href="/Applicant/AttInternalQuestion.aspx" onmouseover="EnterMenu('divTopMenu_4');" onmouseout="LeaveMenu('divTopMenu_4');">Internal Questions</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');" style="">Occasional Employees</a><div class="zkTopMenu" id="divTopMenu_5" style="height:132px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttOccasionalPreferences.aspx" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">Occasional Preferences</a><li class="firstcol" style=""><a href="/Applicant/AttCalendar.aspx" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">My Calendar</a><li class="firstcol" style=""><a href="/Applicant/AttAOJobPostings.aspx" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">View Openings</a><li class="firstcol" style=""><a href="/Applicant/AttOccasionalPostings.aspx?TAB=JB" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">EasyConnect Job Board</a><li class="firstcol" style=""><a href="/Applicant/AttOccasionalPostings.aspx?TAB=PA" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">EasyConnect Postings Archive</a><li class="firstcol" style=""><a href="/Applicant/AttOccasionalPostings.aspx?TAB=AP" onmouseover="EnterMenu('divTopMenu_5');" onmouseout="LeaveMenu('divTopMenu_5');">EasyConnect Accepted Postings</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_3');" onmouseout="LeaveMenu('divTopMenu_3');" style="">Administration</a><div class="zkTopMenu" id="divTopMenu_3" style="height:66px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttRegisterInternal_02.aspx" onmouseover="EnterMenu('divTopMenu_3');" onmouseout="LeaveMenu('divTopMenu_3');">Register for Internal Account</a><li class="firstcol" style=""><a href="/Applicant/AttActivityLog.aspx" onmouseover="EnterMenu('divTopMenu_3');" onmouseout="LeaveMenu('divTopMenu_3');">Activity Log</a><li class="firstcol" style=""><a href="/Applicant/AttChangePassword.aspx" onmouseover="EnterMenu('divTopMenu_3');" onmouseout="LeaveMenu('divTopMenu_3');">Change Password</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="javascript:;" onmouseover="EnterMenu('divTopMenu_6');" onmouseout="LeaveMenu('divTopMenu_6');" style="">Purchase Credits</a><div class="zkTopMenu" id="divTopMenu_6" style="height:22px;"><ul><li class="firstcol" style=""><a href="/Applicant/AttCreditsTopUp.aspx?su=BjvoRbcLlMOsqipGFhyj5pV%2ff60t8e6RUZyyDKgMDFHM8vmx%2f%2fX%2bNk%2bRilLPoqk0" onmouseover="EnterMenu('divTopMenu_6');" onmouseout="LeaveMenu('divTopMenu_6');">ApplyToEducation Credits</a></ul></div></div><div style="float:left;"><a class="zkTopMenu" href="https://help.applytoeducation.com" target ="_blank" style="">Help & Training</a></div><div style="clear:both;"></div></div>
+
+
+
+	
+                    </td>
+				</tr>						
+				
+			</table>
+		</td>
+	
+	</tr>
+	
+    
+    
+	
+	
+	
+    
+</table>
+
+
+<script type="text/javascript" src="/jScripts/google_translate.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+        </div>
+        <div id="divBody" class="row">
+            <div style="padding-bottom: 10px;padding-top: 8px;">
+                <span id="ctl00_lblPageHeader" class="PageHeader">Occasional Postings</span>
+            </div>
+            
+
+																        <div class="LabelHeader">
+																            Waterloo Region District School Board<br /><br />
+																            Period Selector: 
+                                                                            <div id="ctl00_ContentPlaceHolder1_upPeriodSelector">
+	
+																                <select name="ctl00$ContentPlaceHolder1$ddlMonth" id="ctl00_ContentPlaceHolder1_ddlMonth" disabled="disabled" class="aspNetDisabled ComboRegular">
+		<option value="2017-07/01">July 2017</option>
+		<option value="2017-08/01">August 2017</option>
+		<option value="2017-09/01">September 2017</option>
+		<option value="2017-10/01">October 2017</option>
+		<option value="2017-11/01">November 2017</option>
+		<option value="2017-12/01">December 2017</option>
+		<option value="2018-01/01">January 2018</option>
+		<option value="2018-02/01">February 2018</option>
+		<option selected="selected" value="2018-03/01">March 2018</option>
+		<option value="2018-04/01">April 2018</option>
+		<option value="2018-05/01">May 2018</option>
+		<option value="2018-06/01">June 2018</option>
+		<option value="2018-07/01">July 2018</option>
+		<option value="2018-08/01">August 2018</option>
+		<option value="2018-09/01">September 2018</option>
+		<option value="2018-10/01">October 2018</option>
+		<option value="2018-11/01">November 2018</option>
+
+	</select>
+                                                                            
+</div>
+																        </div>
+																        <div style="margin-top: 10px;">
+															                <input type="hidden" name="ctl00$ContentPlaceHolder1$hfTAB" id="ctl00_ContentPlaceHolder1_hfTAB" value="JB" />
+																                <div id="ctl00_ContentPlaceHolder1_divJobBoard" class="tabbedList">
+																                    <a id="ctl00_ContentPlaceHolder1_hlnkJobBoard" class="selected">Job Board</a>
+																                    <a href="javascript:;" onclick="SwitchTabs(1)">Postings Archive</a>
+																                    <a href="javascript:;" onclick="SwitchTabs(3)">Accepted Postings</a>
+																                </div>
+																                <div id="ctl00_ContentPlaceHolder1_divPostingsArchive" class="hidden">
+																                    <a href="javascript:;" id="ctl00_ContentPlaceHolder1_hlnkJobBoardPA" onclick="SwitchTabs(2)">Job Board</a>
+																                    <a id="ctl00_ContentPlaceHolder1_hlnkPostingsArchive" class="selected">Postings Archive</a>
+																                    <a href="javascript:;" onclick="SwitchTabs(3)">Accepted Postings</a>
+																                </div>
+																                <div id="ctl00_ContentPlaceHolder1_divAcceptedPostings" class="hidden">
+																                    <a href="javascript:;" id="ctl00_ContentPlaceHolder1_hlnkJobBoardAP" onclick="SwitchTabs(2)">Job Board</a>
+																                    <a href="javascript:;" onclick="SwitchTabs(1)">Postings Archive</a>
+																                    <a id="ctl00_ContentPlaceHolder1_Hyperlink1" class="selected">Accepted Postings</a>
+																                </div>
+                                                                        </div>
+																            <div id="ctl00_ContentPlaceHolder1_divViewJobBoard" style="margin-top: 10px;" class="">
+                                                                                <div id="ctl00_ContentPlaceHolder1_upJobBoard">
+	
+                                                                                    <div>
+		<table class="zkGrid absencelist" cellspacing="1" cellpadding="1" id="ctl00_ContentPlaceHolder1_gvJobBoard" width="100%">
+			<tr class="even noborder">
+				<td colspan="7">There are no postings available on the Job Board.</td>
+			</tr>
+		</table>
+	</div>
+                                                                                
+</div>
+																            </div>
+																            <div id="ctl00_ContentPlaceHolder1_divViewPostingsArchive" class="hidden" style="margin-top: 10px;">
+																                <p><span id="ctl00_ContentPlaceHolder1_ltrlArchiveDescription" class="LabelRegular">Review a history of the postings you were offered.</span></p>
+                                                                                <div id="ctl00_ContentPlaceHolder1_upPostingsArchive">
+	
+																                    <p><input id="ctl00_ContentPlaceHolder1_chkOpenPostingsOnly" type="checkbox" name="ctl00$ContentPlaceHolder1$chkOpenPostingsOnly" /><label for="ctl00_ContentPlaceHolder1_chkOpenPostingsOnly">Only display 'Open' assignments</label></p>
+                                                                                    <div>
+		<table class="zkGrid absencelist" cellspacing="1" cellpadding="1" id="ctl00_ContentPlaceHolder1_gvPostingsArchive" width="100%">
+			<tr class="even noborder" align="right">
+				<td colspan="7">
+                                                                                            <div style="text-align:right; display:block; margin-right:20px; direction:rtl;">
+                                                                                                <span id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl01_lblIndex"><b>&nbsp;Pages:&nbsp;1 of 1&nbsp;&nbsp;&nbsp;</b></span><span style="margin-left:3px;margin-right:3px;"><b>1</b></span>
+                                                                                            </div>
+                                                                                        </td>
+			</tr><tr class="absencelistheader">
+				<th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitleCode" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitleCode&#39;,&#39;&#39;)">Code</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitlePayroll" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitlePayroll&#39;,&#39;&#39;)">Pay</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitleAssignment" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitleAssignment&#39;,&#39;&#39;)">Assignment</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitleLocation" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitleLocation&#39;,&#39;&#39;)">Location</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitleSubstituteRequiredFrom" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitleSubstituteRequiredFrom&#39;,&#39;&#39;)">Start</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl02_lbtnTitleSubstituteRequiredTo" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvPostingsArchive$ctl02$lbtnTitleSubstituteRequiredTo&#39;,&#39;&#39;)">End</a></th><th scope="col">Status</th>
+			</tr><tr>
+				<td>2537926</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=723e08be-dba5-489b-865d-9105d58e8981" class="AbsenceEx">Visual Arts</a></td><td>Kitchener-Waterloo C. and V.S.<br />Kitchener</td><td>
+                                                                                                    2018/03/01 8:20 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/01 11:30 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2541557</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=d537d5e6-6f79-492c-a696-383c33ef1964" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+                                                                                                    2018/03/02 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/02 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr>
+				<td>2541634</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=6d421beb-c137-4c23-8ff1-a9885d262f50" class="AbsenceEx">Mathematics</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+                                                                                                    2018/03/02 8:15 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/02 10:50 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2531694</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=fbde013b-6914-4bcf-abf7-297d67cb2635" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+                                                                                                    2018/03/05 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/05 10:47 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr>
+				<td>2512878</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=716a6aa4-47eb-4c79-9138-374ce9363e71" class="AbsenceEx">Physical and Health Education</a></td><td>Elmira District Secondary School<br />Elmira</td><td>
+                                                                                                    2018/03/07 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/09 2:30 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2544132</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=8fab85e6-ff3d-4bda-bf3f-54597ad86acc" class="AbsenceEx">French</a></td><td>Elmira District Secondary School<br />Elmira</td><td>
+                                                                                                    2018/03/08 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/08 10:50 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr>
+				<td>2545486</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=c500eb12-1af4-4c3e-8a86-2fc011e7d7dc" class="AbsenceEx">French</a></td><td>Huron Heights S.S.<br />Kitchener</td><td>
+                                                                                                    2018/03/08 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/08 11:45 AM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2459156</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=c51c358d-d8cf-45c2-b61d-bfa8f3dfb3f5" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+                                                                                                    2018/03/09 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/09 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr>
+				<td>2441516</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=f5ede8aa-051b-4a22-80d3-c8ba94f9cadd" class="AbsenceEx">Mathematics</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+                                                                                                    2018/03/09 8:15 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/09 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2543041</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=45c3cb78-6cb2-47a2-a7ad-02b8d20b9bb5" class="AbsenceEx">Computer Science</a></td><td>Galt Collegiate Institute<br />Cambridge</td><td>
+                                                                                                    2018/03/09 11:49 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/09 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr>
+				<td>2475678</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=195f614f-1da0-4bae-a47a-73123265e91c" class="AbsenceEx">Computer Science</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+                                                                                                    2018/03/09 11:50 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/09 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Closed
+                                                                                                </td>
+			</tr><tr class="even noborder" align="right">
+				<td colspan="7">
+                                                                                            <div style="text-align:right; display:block; margin-right:20px; direction:rtl;">
+                                                                                                <span id="ctl00_ContentPlaceHolder1_gvPostingsArchive_ctl15_lblIndex"><b>&nbsp;Pages:&nbsp;1 of 1&nbsp;&nbsp;&nbsp;</b></span><span style="margin-left:3px;margin-right:3px;"><b>1</b></span>
+                                                                                            </div>
+                                                                                        </td>
+			</tr>
+		</table>
+	</div>
+                                                                                
+</div>
+																            </div>
+																            <div id="ctl00_ContentPlaceHolder1_divViewAcceptedPostings" class="hidden" style="margin-top: 10px;">
+																                <p><span id="ctl00_ContentPlaceHolder1_ltrlAcceptedDescription" class="LabelRegular">Review a history of the postings you have completed, and the future postings you have accepted.</span></p>
+                                                                                <div id="ctl00_ContentPlaceHolder1_upAcceptedPostings">
+	
+                                                                                    <div>
+		<table class="zkGrid absencelist" cellspacing="1" cellpadding="1" id="ctl00_ContentPlaceHolder1_gvAcceptedPostings" width="100%">
+			<tr class="even noborder" align="right">
+				<td colspan="8">
+                                                                                            <div style="text-align:right; display:block; margin-right:20px; direction:rtl;">
+                                                                                                <span id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl01_lblIndex"><b>&nbsp;Pages:&nbsp;1 of 1&nbsp;&nbsp;&nbsp;</b></span><span style="margin-left:3px;margin-right:3px;"><b>1</b></span>
+                                                                                            </div>
+                                                                                        </td>
+			</tr><tr class="absencelistheader">
+				<th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitleCode" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitleCode&#39;,&#39;&#39;)">Code</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitlePayroll" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitlePayroll&#39;,&#39;&#39;)">Pay</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitleAssignment" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitleAssignment&#39;,&#39;&#39;)">Assignment</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitleLocation" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitleLocation&#39;,&#39;&#39;)">Location</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitleSubstituteRequiredFrom" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitleSubstituteRequiredFrom&#39;,&#39;&#39;)">Start</a></th><th scope="col"><a id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl02_lbtnTitleSubstituteRequiredTo" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvAcceptedPostings$ctl02$lbtnTitleSubstituteRequiredTo&#39;,&#39;&#39;)">End</a></th><th scope="col">Status</th><th scope="col">Confirmation #</th>
+			</tr><tr>
+				<td>2527724</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=AP&amp;AbsenceID=1c81d0ee-291d-4fef-b466-08b72ded2946" class="AbsenceEx">Mathematics</a></td><td>Eastwood Collegiate Institute<br />Kitchener</td><td>
+                                                                                                    2018/03/01 11:45 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/01 2:20 PM
+                                                                                                </td><td>
+                                                                                                    Completed
+                                                                                                </td><td>
+                                                                                                    783575
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2541617</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=AP&amp;AbsenceID=24d8b249-dfab-4a2a-a122-b5b78c147f36" class="AbsenceEx">Library</a></td><td>Huron Heights S.S.<br />Kitchener</td><td>
+                                                                                                    2018/03/02 8:10 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/02 2:25 PM
+                                                                                                </td><td>
+                                                                                                    Completed
+                                                                                                </td><td>
+                                                                                                    795203
+                                                                                                </td>
+			</tr><tr>
+				<td>2541953</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=AP&amp;AbsenceID=c6ed668f-cdd3-4034-891f-fbb0d9e0dbc8" class="AbsenceEx">Mathematics</a></td><td>Kitchener-Waterloo C. and V.S.<br />Kitchener</td><td>
+                                                                                                    2018/03/05 8:20 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/05 2:35 PM
+                                                                                                </td><td>
+                                                                                                    Accepted
+                                                                                                </td><td>
+                                                                                                    795251
+                                                                                                </td>
+			</tr><tr class="even">
+				<td>2541975</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=AP&amp;AbsenceID=dc29d51c-1bd5-4e91-87de-b8e40046aaf3" class="AbsenceEx">Mathematics</a></td><td>Kitchener-Waterloo C. and V.S.<br />Kitchener</td><td>
+                                                                                                    2018/03/07 8:20 AM
+                                                                                                </td><td>
+                                                                                                    2018/03/07 2:35 PM
+                                                                                                </td><td>
+                                                                                                    Accepted
+                                                                                                </td><td>
+                                                                                                    795262
+                                                                                                </td>
+			</tr><tr class="even noborder" align="right">
+				<td colspan="8">
+                                                                                            <div style="text-align:right; display:block; margin-right:20px; direction:rtl;">
+                                                                                                <span id="ctl00_ContentPlaceHolder1_gvAcceptedPostings_ctl08_lblIndex"><b>&nbsp;Pages:&nbsp;1 of 1&nbsp;&nbsp;&nbsp;</b></span><span style="margin-left:3px;margin-right:3px;"><b>1</b></span>
+                                                                                            </div>
+                                                                                        </td>
+			</tr>
+		</table>
+	</div>
+                                                                                
+</div>
+																            </div>
+																        <div></div>
+																		
+																		<div style="text-align: right; margin-top: 10px; class="LabelRegular">
+                                                                            <input type="submit" name="ctl00$ContentPlaceHolder1$btnExport" value="Export To Excel" id="ctl00_ContentPlaceHolder1_btnExport" class="zkButton" />
+																	        <span class="hidden"><A href="javascript:;"><input onclick="__doPostBack('ctl00$ContentPlaceHolder1$btnPrint','')" name="ctl00$ContentPlaceHolder1$btnPrint" type="button" id="ctl00_ContentPlaceHolder1_btnPrint" class="zkButton" value="Print" disabled="disabled" title="Printing functionality has not been implemented at this time" /></A></span>
+																		</div>
+
+        </div>
+        <div class="row" id="TDFooter" style="margin-left: auto; margin-right: auto;max-width: 980px;">  
+            
+
+<style type="text/css">
+    @media only screen and  (min-width: 768px) 
+    {
+	    #divCopyright
+	    {
+	        display:block !important;             
+	    }
+	    #divCopyrightResponsive
+	    {
+	        display:none !important;
+	    }
+	    #footer-nav ul
+	    {
+		    margin: 0px;
+		    padding: 0px;
+	    }
+	    #footer-nav li:before {
+		    content: " | ";
+	    }
+	     #divContents ul#ulNavTopLeft li:before {
+		    content: "|";
+		    color: #ffffff;
+	    }
+	    #footer-nav li:first-child:before, #divContents ul#ulNavTopLeft li:first-child:before {
+		    content: none;
+	    }
+	    #footer-nav ul li, #divContents ul li
+	    {
+		    list-style-type: none;
+		    display: inline;
+	    }
+	    .footerLi{
+		    margin:0;
+		    display:inline;
+		    float: left;
+		    padding:0 0 0 2px;
+	    }
+	    .force-right {
+		    float: right!important;		   
+	    }
+	    .force-left {
+		   padding-left:0px !important;
+	    }		    
+	}	
+	@media only screen and  (max-width: 767px)
+	{
+	     #divCopyright
+	    {
+	        display:none !important;             
+	    }
+	    #divCopyrightResponsive
+	    {
+	        display:block !important;
+	    }
+	    #ulFooter
+	    {
+	         font-size:20px;
+	    }	    
+	}
+	
+	
+    .textFooter
+    {
+    font-family: helvetica condensed ,sans-serif !important;
+    font-weight:normal !important;
+    }
+</style>
+
+<div style="padding:0px; important">
+    <div id="divCopyright" class="col-md-3 col-sm-4 text-left force-left">
+	    <span id="ctl00_footer_lblCopyright" class="LabelRegular2" style="padding-left:5px; font-size:11px;">Copyright &copy; 2018 Apply To Education</span>        
+    </div>
+    <div class="col-md-8 col-sm-7text-right" id="footer-nav">
+    <span  class="force-right">
+        <ul id="ulFooter" style="display:table; padding-left:5px; text-align:left;">
+			<li class="navbar-text footerLi" style="list-style: none;"> 
+				<a id="ctl00_footer_hlnkAboutUs" class="Text2 textFooter" href="https://home.applytoeducation.com/index.php/about-2/" target="_blank">About Us</a></li>
+            
+            <li class="navbar-text footerLi" style="list-style: none;"> 							 
+				<a id="ctl00_footer_hlnkContactUs" class="Text2 textFooter" href="https://home.applytoeducation.com/index.php/contact-2/" target="_blank">Contact Us</a></li>
+            <li class="navbar-text footerLi" style="list-style: none;"> 							 
+				<a id="ctl00_footer_hlnkPrivacyPledge" class="Text2 textFooter" href="/Common/AttPrivacyPledge.aspx" target="_blank">Privacy Pledge</a></li>
+            <li class="navbar-text footerLi" style="list-style: none;">							 
+				<a id="ctl00_footer_hlnkTermsOfUse" class="Text2 textFooter" href="/Common/AttTermsOfUse.aspx" target="_blank">Terms of Use</a></li>            
+			
+			
+                <li class="navbar-text footerLi" style="list-style: none;">
+				    <a id="ctl00_footer_hlnkAccessibility" class="Text2 textFooter" href="/Common/Accessibility.aspx" target="_blank">Accessibility</a>
+			    </li></span>			
+			</ul>
+		<div id="divCopyrightResponsive" class="col-md-3 col-sm-4 text-center">
+	        	<span id="ctl00_footer_lblCopyright1" class="LabelRegular2">Copyright &copy; 2018 Apply To Education</span>        
+       		</div>
+    </div>
+ </div>
+ <input name="ctl00$footer$txtInitialId" type="hidden" id="ctl00_footer_txtInitialId" style="color:#000;" value="BjvoRbcLlMOsqipGFhyj5pV/f60t8e6RUZyyDKgMDFHM8vmx//X+Nk+RilLPoqk0" />
+
+
+        </div>      
+    
+
+<script type="text/javascript"> 
+  if (typeof TrackPageView == 'function') { 
+  } 
+  else { 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-21592019-2']); 
+  _gaq.push(['_setDomainName', 'applytoeducation.com']); 
+  _gaq.push(['_trackPageview']); 
+ 
+  } 
+  (function() { 
+  var ga = document.createElement('script'); 
+  ga.type = 'text/javascript'; 
+  ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; 
+  s.parentNode.insertBefore(ga, s); 
+  })(); 
+ 
+</script> 
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+				<td>2537926</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=723e08be-dba5-489b-865d-9105d58e8981" class="AbsenceEx">Visual Arts</a></td><td>Kitchener-Waterloo C. and V.S.<br />Kitchener</td><td>
+
+				<td>2541557</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=d537d5e6-6f79-492c-a696-383c33ef1964" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+
+				<td>2541634</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=6d421beb-c137-4c23-8ff1-a9885d262f50" class="AbsenceEx">Mathematics</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+
+				<td>2531694</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=fbde013b-6914-4bcf-abf7-297d67cb2635" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+
+				<td>2512878</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=716a6aa4-47eb-4c79-9138-374ce9363e71" class="AbsenceEx">Physical and Health Education</a></td><td>Elmira District Secondary School<br />Elmira</td><td>
+
+				<td>2459156</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=c51c358d-d8cf-45c2-b61d-bfa8f3dfb3f5" class="AbsenceEx">Mathematics</a></td><td>Waterloo-Oxford District Secondary School<br />Baden</td><td>
+
+				<td>2441516</td><td>100%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=f5ede8aa-051b-4a22-80d3-c8ba94f9cadd" class="AbsenceEx">Mathematics</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+
+				<td>2475678</td><td>50%</td><td><a href="/Applicant/AttOccasionalPostingDetailEx.aspx?TAB=PA&amp;AbsenceID=195f614f-1da0-4bae-a47a-73123265e91c" class="AbsenceEx">Computer Science</a></td><td>Waterloo C.I.<br />Waterloo</td><td>
+
+
