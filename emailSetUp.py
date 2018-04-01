@@ -7,13 +7,13 @@ from datetime import datetime
 
 
 # Constants:
-# Emailing from "myemail@gmail.com" to itself
+# Emailing from "xuan.tappy.he@gmail.com" to itself
 
-gmailAddress = 'myemail@gmail.com'
-gmailPassword = 'somePassword'
+gmailAddress = 'xuan.tappy.he@gmail.com'
+gmailPassword = '19910504'
 
-mailFrom = "myemail@gmail.com"
-mailTo = "myemail@gmail.com"
+mailFrom = "xuan.tappy.he@gmail.com"
+mailTo = "xuan.tappy.he@gmail.com"
 
 # -------------------------------
 
