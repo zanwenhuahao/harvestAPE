@@ -14,6 +14,7 @@ gmailPassword = '19910504'
 
 mailFrom = "xuan.tappy.he@gmail.com"
 mailTo = "xuan.tappy.he@gmail.com"
+mailToText = "6475741618@pcs.rogers.com"
 
 # -------------------------------
 
@@ -39,8 +40,10 @@ def emailJob():
 		gmail = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 		gmail.login(gmailAddress, gmailPassword)
 		gmail.sendmail(mailFrom, mailTo, message)
-
 		print("Mail has been successfully sent!")
+		gmail.sendmail(mailFrom, mailToText, message)
+		print("Email To Text has been successfully sent!")
+		
 		gmail.quit() # Close the SMTP connection
 
 	# If something went wrong with the SMTP connection
