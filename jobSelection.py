@@ -25,9 +25,6 @@ def jobSelect():
 		line = curJobs.readline()
 	curJobs.close()
 
-	#Testing that only the new job is printed
-	#print(newJob)
-
 	# Write the new job to file to be emailed to self
 	newJobFile = open ("newJob.txt", "w")
 	newJobFile.write(newJob)

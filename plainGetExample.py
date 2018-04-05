@@ -4,8 +4,8 @@ from lxml import html
 #log-in information for automation, where payload is a dictionary
 payload = {
 	#login information
-	"txtUserName" : "zanwenhuahao",
-	"txtPassword" : "laotaitai",
+	"txtUserName" : "someUsername",
+	"txtPassword" : "somePassword",
 	#CSRF token?
 }
 # the URL to apply to education login page

@@ -1,6 +1,7 @@
 import requests
 import re
 from lxml import html
+
 def harvestJob():
 	loginURL = "https://applytoeducation.com/AttLogin.aspx"
 	harvestURL = "https://www.applytoeducation.com/Applicant/AttOccasionalPostings.aspx?TAB=JB"
