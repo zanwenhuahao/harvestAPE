@@ -31,8 +31,8 @@ def harvestJob():
 	#print(allHidden)
 
 	payload = allHidden
-	payload['txtUserName']='zanwenhuahao'
-	payload['txtPassword']='laotaitai'
+	payload['txtUserName']='MYUSERNAME'
+	payload['txtPassword']='MYPASSWORD'
 	payload['btnLogIn'] = 'LOGIN'
 	payload['chkRemember'] = ''
 
