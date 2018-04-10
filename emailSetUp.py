@@ -10,7 +10,7 @@ from datetime import datetime
 # Emailing from "xuan.tappy.he@gmail.com" to itself
 
 gmailAddress = 'xuan.tappy.he@gmail.com'
-gmailPassword = '19910504'
+gmailPassword = 'XXXXXXX'
 
 mailFrom = "xuan.tappy.he@gmail.com"
 mailTo = "xuan.tappy.he@gmail.com"
